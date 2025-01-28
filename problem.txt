@@ -1,0 +1,15 @@
+Create a student management system that stores
+student data in a singly linked list.
+The program should handel the following things:
+1) Adding students to the list
+2) Sorting the list based on attendance percent.
+3) Should be able to search by name and roll no.
+4) Should be able to provide with highest and lowest attendance pencent student details.
+5) Display all the students in the list.
+
+The Structure should store:
+name (string) of student
+roll no(int) of student
+attendane percent (int) of student
+
+The program should use switch case to select the operations it need to perform.
