@@ -18,11 +18,11 @@ int isEmpty(int lastPos,int firstPos){
     return lastPos-firstPos==0;
 }
 
-void dequeue(int *arr,int *exitPoint){
+int dequeue(int *arr,int *exitPoint){
     int index=*exitPoint;
-    printf("%d element dequed from queue\n",arr[index++]);
+    int result=arr[index++];
     *exitPoint=index;
-    return;
+    return result;
 
 }
 void peek(int *arr,int exitPoint){
@@ -35,6 +35,7 @@ int main() {
     int exitPointer = 0;
     int entrypointer = 0;
     int option;
+    int temp;
 
     while (1) {
         printf("1. enqueue to queue\n2. dequeue from queue\n3. Peek front most element\n4. Check if queue is empty\n5. Size of queue\n6. Exit\nYour Choice: ");
@@ -49,7 +50,9 @@ int main() {
                     printf("The queue is empty\n");
                 }
                 else{
-                dequeue(queue, &exitPointer);
+
+                temp=dequeue(queue, &exitPointer);
+                printf("%d is the dequeued element\n",temp);
                 }
                 break;
             case 3:
