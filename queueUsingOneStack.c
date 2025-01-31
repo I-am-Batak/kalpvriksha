@@ -1,3 +1,6 @@
+//Time Complexity for enqueue: O(n) as we transfer the element from stack to array and back from array to stack
+// Time complexity for other functions is O(n)
+// Space Complexity remains constant O(1) as the array size is defined as MAX globally.
 #include <stdio.h>
 #include <stdlib.h>
 #define MAX 100

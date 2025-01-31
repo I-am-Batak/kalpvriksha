@@ -1,3 +1,7 @@
+//Implementation of Queue using array
+// Time Complexity(for all functions)=O(n)
+// space complexity remains o(1) as we have taken static arrays.
+
 #include <stdio.h>
 #include <stdlib.h>
 

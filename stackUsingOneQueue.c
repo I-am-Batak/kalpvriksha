@@ -1,3 +1,7 @@
+// Time Complexity is O(n) for enque dunctions and dequeue function
+// Time complexity is O(1) for all remaining functions
+// Space Complexity remains O(1) throughtout as we define the MAX globally as 10001
+
 #include <stdio.h>
 #include <stdlib.h>
 

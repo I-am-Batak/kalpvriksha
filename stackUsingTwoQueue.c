@@ -1,3 +1,6 @@
+//Time Complexity for pop and push is O(n)
+//Space Complexity is O(1) as we define max globally
+
 #include <stdio.h>
 #include <stdlib.h>
 

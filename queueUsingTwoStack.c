@@ -1,3 +1,7 @@
+// Time Complexity for Pushing to Stack O(1)
+// Time Complexity for Dequeueing 2*O(n) = O(n) 
+// Time complexity for dequeing increases as transfer all the elements from stack to another stack and back for n elements.
+// Space Complexity remains constant O(1) as the array size is defined as MAX globally.
 #include <stdio.h>
 #include <stdlib.h>
 #define MAX 100

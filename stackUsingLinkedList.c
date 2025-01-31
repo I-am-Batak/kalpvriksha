@@ -1,3 +1,6 @@
+// Time Complexity is O(1) for all the functions of stack
+// The freeLinkedList which is not a part of stack operation has a time complexity of O(n) for freeing all nodes
+// The Space Complexity is O(n) as there is no cap on the number of nodes this can have so as the number of nodes grow space complexity grows
 #include <stdio.h>
 #include <stdlib.h>
 

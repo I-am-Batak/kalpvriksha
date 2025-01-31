@@ -1,3 +1,6 @@
+//Time Complexity is O(1) for all the functions 
+// Space Complexity is also O(1) as the array is static and doesn't change.
+
 #include <stdio.h>
 #include <stdlib.h>
 
