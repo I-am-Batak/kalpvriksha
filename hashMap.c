@@ -121,10 +121,10 @@ void search() {
 void display() {
     for (int i = 0; i < table_size; i++) {
         struct hashNode *current = hashtable[i]->head;
-        printf("Index %d -> ", i);
         if (current == NULL) {
-            printf("Empty\n");
-        } else {
+            continue;
+        } else{
+             printf("Index %d -> ", i);
             while (current != NULL) {
                 printf("(%d:%d)", current->key, current->value);
                 current = current->next;
